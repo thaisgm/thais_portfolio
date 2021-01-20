@@ -1,0 +1,70 @@
+.BingeBuddyMain{
+  background-color: #2E2E2E;
+  color: white;
+  padding-bottom: 10vh;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 2vh;
+}
+
+.header{
+  font-size: calc(20px + 4vmin);
+}
+
+.BingeBuddyLogo{
+  max-width: 20vh;
+}
+
+.projectAbout2 {
+  font-size: calc(1px + 2vmin);
+  padding-left: 25vh;
+  padding-right: 25vh;
+}
+
+.phoneScreens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.BBScreen{
+  margin-top: 3vh;
+  max-width: 27vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.titleBB {
+  font-size: calc(15px + 3vmin);
+  padding-left: 25vh;
+  padding-top: 5vh;
+}
+
+.descriptionBB {
+  font-size: calc(2px + 1.5vmin);
+  padding-left: 25vh;
+  padding-right: 25vh;
+}
+
+.SearchPhotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.BBScreen2 {
+  margin-top: 3vh;
+  max-width: 27vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 10vh;
+  margin-left: 10vh;
+}

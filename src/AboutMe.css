@@ -1,0 +1,53 @@
+.AboutMePage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #2E2E2E;
+  color: white;
+  min-height: 94vh;
+}
+
+.column1 {
+  display: flex;
+  flex-direction: column;
+  max-width: 70vh;
+  font-size: calc(10px + 1vmin);
+  margin: 5vh;
+}
+
+.Hi {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  font-size: calc(20px + 4vmin);
+}
+
+.Hi:after {
+  content:'\01F44B';
+}
+
+.column2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 70vh;
+  margin: 5vh;
+  font-size: calc(10px + 1vmin);
+}
+
+.cartoon {
+  width: 60%;
+  align-self: center;
+}
+
+.textLoop {
+  flex-direction: row;
+  font-size: calc(15px + 4vmin);
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+
+}
+
+.downloadBtn {
+  margin-top: 2vh;
+  min-width: 20vw;
+  align-self: center;
+}

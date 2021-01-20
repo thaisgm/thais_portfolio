@@ -1,0 +1,113 @@
+.BookCrossingMain{
+  background-color: #2E2E2E;
+  color: white;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  padding-top: 2vh;
+}
+
+.header{
+  font-size: calc(20px + 4vmin);
+}
+
+.books {
+  max-width: 15vh;
+}
+
+.phoneScreens {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 5vh;
+  margin-right: 5vh;
+}
+
+.phoneScreen{
+  margin-top: 3vh;
+  max-width: 27vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 2px solid black;
+}
+
+.BookSlide {
+  max-width: 100vh;
+  margin: 1vh;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slideImage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.projectAbout {
+  font-size: calc(1px + 2vmin);
+  padding-left: 20vh;
+  padding-right: 20vh;
+}
+
+.title {
+  font-size: calc(12px + 2vmin);
+  padding-left: 20vh;
+  padding-top: 5vh;
+}
+
+.description {
+  font-size: calc(2px + 1.5vmin);
+  padding-left: 20vh;
+  padding-right: 20vh;
+}
+
+.personaPhotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.persona {
+  max-width: 78vh;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 1vh;
+}
+
+.PaperPrototypes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paperPrototype{
+  max-width: 80vh;
+  border-radius: 5px;
+  margin: 1vh;
+}
+
+.figmaImg {
+  display: flex;
+  justify-content: center;
+}
+
+.figmaPrototype {
+  max-width: 130vh;
+}
+
+.AdobeXDImg {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 3vh;
+}
+
+.AdobeXDPrototype {
+  max-width: 100vh;
+}
